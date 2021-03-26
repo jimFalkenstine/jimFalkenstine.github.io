@@ -6,15 +6,19 @@
   box-sizing: border-box;
 }
 
-.main-header {
-  text-align: center;
-  color: #f7e5ff;
-}
-
 body {
   font-family: 'Russo One', sans-serif;
 	background-color: #3d88c2;
-	color: #000000;
+}
+
+.main-header {
+  text-align: center;
+  background-color: #3d88c2; 
+  color: #f7e5ff;
+}
+
+h1 {
+  text-shadow: 2px 2px #000000;
 }
 
 .nav {
@@ -41,10 +45,9 @@ body {
   font-weight: bold;
 }
 
-h2,
-h3,
-h4 {
+h2 {
   text-align: center;
+  text-shadow: 2px 2px #3d88c2;
 }
 
 .figure {
@@ -62,6 +65,8 @@ img {
 .content_header {
 	border-radius: 10px;
 	background-color: #f7e5ff;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 #about, 

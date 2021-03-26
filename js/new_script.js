@@ -33,7 +33,7 @@ function populateInGameVariants () {
             <input type="checkbox" id="${character.name}" name="${character.name}" value="${character.name}" onclick="addFigure(${character.index})">
             <label for="${character.name}">${character.name}</label>
           </form>
-          <p class="figure_text" style="display:none">You have ${character.name}!</p>
+          <p class="figure_text" style="display:none">You have<br> ${character.name}!</p>
       </div>
     `;
   }
@@ -54,7 +54,7 @@ function populateMagicItems () {
             <input type="checkbox" id="${character.name}" name="${character.name}" value="${character.name}" onclick="addFigure(${character.index})">
             <label for="${character.name}">${character.name}</label>
           </form>
-          <p class="figure_text" style="display:none">You have<br> ${character.name}!</p>
+          <p class="figure_text" style="display:none">You have ${character.name}!</p>
       </div>
     `;
   }
