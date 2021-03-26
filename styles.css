@@ -1,0 +1,133 @@
+
+/* --------------------------
+  Main Styles
+--------------------------- */
+* {
+  box-sizing: border-box;
+}
+
+.main-header {
+  text-align: center;
+  color: #f7e5ff;
+}
+
+body {
+  font-family: 'Russo One', sans-serif;
+	background-color: #3d88c2;
+	color: #000000;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  background-color: #f7e5ff;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav a {
+  display: block;
+  color: #3d88c2;
+  text-align: center;
+  text-decoration: none;
+  background-color: #f7e5ff;
+}
+
+.nav a:hover {
+  color: #f7e5ff;
+  background-color: #3d88c2;
+  font-weight: bold;
+}
+
+h2,
+h3,
+h4 {
+  text-align: center;
+}
+
+.figure {
+  margin: 5px;
+  border-radius: 10px;
+  text-align: center;
+  opacity: 50%;
+  border: 1px solid #eeeeee;
+  background-color: #eeeeee;
+}
+
+img {
+  border-radius: 10px;
+}
+.content_header {
+	border-radius: 10px;
+	background-color: #f7e5ff;
+}
+
+#about, 
+#contact {
+  background-color: #eeeeee;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#core_skylanders,
+#in-game_variants, 
+#magic_items { 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #eeeeee;
+  border-radius: 10px;
+}
+
+/* --------------------------
+  Media Queries
+--------------------------- */
+
+@media (min-width: 768px) {
+
+  .nav {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  #core_skylanders,
+  #in-game_variants, 
+  #magic_items { 
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  #magic_items,
+  #magic_items_header {
+    max-width: 768px;
+    margin: 5px auto;
+  }
+
+}
+
+@media (min-width: 1025px) {
+
+  .nav {
+    align-self: center;
+  }
+
+  .figure {
+    margin: 10px;
+  }
+
+  .content_header,
+  #about,
+  #core_skylanders,
+  #in-game_variants,
+  #contact {
+    max-width: 1025px;
+    margin: 5px auto;
+  }
+  
+}
+
+
