@@ -96,7 +96,7 @@ const coreSkylanders = [
 	},
     {
 		name: 'Spyro',
-		image: 'images/spyro.jpg.',
+		image: 'images/spyro.jpg',
         index: 19
 	},
     {
