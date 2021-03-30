@@ -21,20 +21,22 @@ h1 {
   text-shadow: 2px 2px #000000;
 }
 
+ul.nav {
+  padding-left: 0;
+}
+
 .nav {
   display: flex;
   flex-direction: column;
   list-style-type: none;
   background-color: #f7e5ff;
   border-radius: 10px;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-around;
+  align-items: stretch;
 }
 
 .nav a {
-  display: block;
   color: #3d88c2;
-  text-align: center;
   text-decoration: none;
   background-color: #f7e5ff;
 }
@@ -124,11 +126,13 @@ img {
     margin: 10px;
   }
 
+  .main-header,
   .content_header,
   #about,
   #core_skylanders,
   #in-game_variants,
-  #contact {
+  #contact,
+  .main-footer {
     max-width: 1025px;
     margin: 5px auto;
   }
